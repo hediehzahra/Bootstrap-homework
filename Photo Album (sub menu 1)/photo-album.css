@@ -1,0 +1,8 @@
+/* header start */
+.container-fluid {
+    position: relative;
+    background: url(header.webp);
+    background-size: cover;
+}
+
+/* header end */
