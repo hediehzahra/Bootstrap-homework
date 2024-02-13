@@ -33,7 +33,10 @@ li a:local-link{
 
 }
 .bg-dark{
-    background-color: #223749 !important;
+    /* background-color: #223749 !important; */
+    background-color: #493522 !important; 
+    /* color chosen was the best, you can try the colors yourself to see:) */
+    /* background-color: #946b46 !important; */
 }
 @media screen and (width<992px){
     .bg-nav{
@@ -73,6 +76,7 @@ li a:local-link{
     top: 5px;
     height: 40px;
     width: 100px;
+    transition: all 0.5s;
 }
 .po-search:hover{
     background-color: rgb(13, 110, 253) !important;

@@ -35,7 +35,10 @@ li a:local-link{
 /* nav bar end */
 /* footer start */
 .bg-dark{
-    background-color: #223749 !important;
+    /* background-color: #223749 !important; */
+    background-color: #493522 !important; 
+    /* color chosen was the best, you can try the colors yourself to see:) */
+    /* background-color: #946b46 !important; */
 }
 .plAndr{
     padding: 0 50px;
@@ -58,6 +61,7 @@ li a:local-link{
     top: 5px;
     height: 40px;
     width: 100px;
+    transition: all 0.5s;
 }
 .po-search:hover{
     background-color: rgb(13, 110, 253) !important;
