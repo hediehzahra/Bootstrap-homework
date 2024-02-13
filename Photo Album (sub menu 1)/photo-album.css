@@ -30,10 +30,10 @@ li a:local-link{
 }
 
 .bg-dark{
-    background-color: #223749 !important;
+    /* background-color: #223749 !important; */
     background-color: #493522 !important; 
     /* color chosen was the best, you can try the colors yourself to see:) */
-    background-color: #946b46 !important;
+    /* background-color: #946b46 !important; */
 }
 @media screen and (width<992px){
     .bg-nav{
@@ -78,3 +78,68 @@ li a:local-link{
     object-fit: cover;
 }
 /* main end */
+
+
+/* footer start */
+.plAndr{
+    padding: 0 50px;
+}
+.no-decoration{
+    text-decoration: none;
+}
+.mtop-OneAndhalf{
+    margin-top: 1.5px;
+}
+.mleft-12{
+    margin-left: -12px;
+}
+.form-control::placeholder{
+    color: #6c757d;
+}
+.po-search{
+    position: relative;
+    right: 25%;
+    top: 5px;
+    height: 40px;
+    width: 100px;
+    transition: all 0.5s;
+}
+.po-search:hover{
+    background-color: rgb(13, 110, 253) !important;
+}
+.po-search:focus{
+    border: 3px solid #055160 !important; 
+}
+.form-control{
+    height: 50px;
+}
+.mtop-20{
+    margin-top: -20px;
+}
+.button-size{
+    width: 48px;
+    height: 48px;
+}
+.backtotop{
+    position: fixed;
+    right: 15px;
+    bottom: 30px ;
+}
+.iconHover{
+    transition: all 0.5s;
+}
+.iconHover:hover{
+    color: rgb(86, 240, 240) !important;
+    border: 1px solid white !important;
+}
+.bigger{
+    transition: all 0.3s;
+}
+.bigger:hover{
+    color: white !important;
+    transform: scale(1.1) translateX(5px);
+}
+.link-info:hover{
+    color: white !important;
+}
+/* footer end */
