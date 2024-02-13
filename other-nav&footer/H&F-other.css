@@ -1,15 +1,18 @@
 /* nav bar start */
 li a:hover{
-    color: blue !important;
+    color: rgb(13, 110, 253) !important;
 }
 li a:local-link{
-    color: blue !important;
+    color: rgb(13, 110, 253) !important;
+}
+.text-bg-primary{
+    background-color: #946b46 !important;
 }
 .button{
     transition: all 0.5s !important;
 }
 .button:hover{
-    background-color: rgb(86, 240, 240) !important;
+    background-color: #223749 !important;
 }
 .logo-size{
     width: 170px;
@@ -18,6 +21,9 @@ li a:local-link{
 .bg-nav{
     background-color: #f7f2ee;
     height: 100px;
+}
+.dropdown-color{
+    background-color: #f7f2ee;
 }
 .SignIn-size{
     width: 90px;
@@ -48,11 +54,6 @@ li a:local-link{
         height: 210px;
     }
 }
-@media screen and (width<1400px) {
-    .responsive{
-        display: none;
-    }
-}
 /* nav bar end */
 /* footer start */
 .plAndr{
@@ -70,6 +71,9 @@ li a:local-link{
 .form-control::placeholder{
     color: #6c757d;
 }
+.btn-info{
+    background-color: #946b46;
+}
 .po-search{
     position: relative;
     right: 25%;
@@ -77,12 +81,13 @@ li a:local-link{
     height: 40px;
     width: 100px;
     transition: all 0.5s;
+    border: 1px solid #946b46 !important;
 }
 .po-search:hover{
-    background-color: rgb(13, 110, 253) !important;
+    background-color: #223749 !important;
 }
 .po-search:focus{
-    border: 3px solid #055160 !important; 
+    border: 3px solid #efe5dc !important; 
 }
 .form-control{
     height: 50px;
@@ -98,6 +103,7 @@ li a:local-link{
     position: fixed;
     right: 15px;
     bottom: 30px ;
+    background-color: #946b46;
 }
 .iconHover{
     transition: all 0.5s;
