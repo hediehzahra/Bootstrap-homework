@@ -77,6 +77,10 @@ li a:local-link{
 .cover1 {
     object-fit: cover;
 }
+
+.borderbox {
+    border: #493522af 5px solid;
+}
 /* main end */
 
 
