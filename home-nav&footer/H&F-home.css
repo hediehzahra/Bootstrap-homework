@@ -1,17 +1,17 @@
 /* nav bar start */
-li a:hover{
-    color: rgb(13, 110, 253) !important;
+.LinkHoverBlue:hover{
+    color: rgb(13, 110, 253);
 }
-li a:local-link{
-    color: rgb(13, 110, 253) !important;
+.LinkHoverBlue:local-link{
+    color: rgb(13, 110, 253);
 }
 .text-bg-primary{
     background-color: #946b46 !important;
 }
-.button{
+.nfButton{
     transition: all 0.5s !important;
 }
-.button:hover{
+.nfButton:hover{
     background-color: #223749 !important;
 }
 .logo-size{
@@ -41,10 +41,7 @@ li a:local-link{
 /* nav bar end */
 /* footer start */
 .bg-dark{
-    /* background-color: #223749 !important; */
     background-color: #493522 !important; 
-    /* color chosen was the best, you can try the colors yourself to see:) */
-    /* background-color: #946b46 !important; */
 }
 .plAndr{
     padding: 0 50px;
@@ -109,7 +106,7 @@ li a:local-link{
     color: white !important;
     transform: scale(1.1) translateX(5px);
 }
-.link-info:hover{
+.cfHover:hover{
     color: white !important;
 }
 /* footer end */
