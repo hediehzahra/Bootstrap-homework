@@ -150,6 +150,7 @@ span{
     bottom: 30px;
     z-index: 99;
     padding: 10px 14px;
+    transition: all 0.5s;
     
 }
 
@@ -169,14 +170,22 @@ span{
 }
 
 #carouselExampleDark{
-    border: 2px solid green;
-    /* width: 50vw; */
-    /* height: 40vw; */
-    /* height: 500px; */
+    /* border: 2px solid green; */
+    width: 40%;
+}
+#publishers{
+    /* border: 2px solid black; */
+    width: 100%;
+}
+@media (max-width: 991px) {
+    #carouselExampleDark{
+        width: 100%;
+    }
 }
 
 .carousel-inner{
-    width: 50%;
+    /* border: 2px solid red; */
+    width: 100%;
 }
 .carousel-inner .carousel-item:first-child{
     /* border: 10px solid black; */
@@ -197,6 +206,7 @@ span{
     /* margin-top: 30%; */
     background-color: #0d6efd;    /*--primary*/
     opacity: 1 !important;
+    transition: all 0.5s;
 
 }
 
@@ -206,4 +216,48 @@ span{
     background-color: rgb(86, 240, 240);
 
 
+}
+
+
+
+.one img{
+    width: 70px;
+    height: 70px;    
+    border: 1px dashed #0d6efd;
+    padding: 4px;
+
+}
+
+.two img{
+    width: 50px;
+    height: 50px;
+    border: 1px dashed #0d6efd;
+    padding: 4px;
+}
+
+.three img{
+    width: 40px;
+    height: 40px;
+    border: 1px dashed #0d6efd;
+    padding: 4px;
+}
+
+.carousel4 img {
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: rotation;
+}
+  
+@keyframes rotation {
+    0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.05);
+      }
+
+      100% {
+        transform: scale(1);
+      }
 }
