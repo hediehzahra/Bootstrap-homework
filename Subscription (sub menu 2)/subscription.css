@@ -56,6 +56,17 @@ li a:local-link{
 }
 /* nav bar end */
 
+
+/* header start */
+.header {
+    position: relative;
+    background: url(../imgs/header2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* header end */
+
 /* footer start */
 .plAndr{
     padding: 0 50px;
