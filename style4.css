@@ -29,6 +29,10 @@
 .dropdown-color{
     background-color: #f7f2ee;
 }
+.navbar-collapse{
+    background-color: #f7f2ee;
+    z-index: 1;
+}
 .SignIn-size{
     width: 90px;
 }
