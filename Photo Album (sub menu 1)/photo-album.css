@@ -58,7 +58,6 @@ li a:local-link{
 
 /* header start */
 .hd-img {
-    position: relative;
     background: url(header.webp);
     background-size: cover;
 }
