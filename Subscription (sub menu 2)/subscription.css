@@ -63,7 +63,32 @@ li a:local-link{
     background-size: cover;
     background-position: center;
 }
-/* header end */
+
+
+/* main start */
+.para {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.border-con {
+    background-color: #493522;
+    border-radius: 10px;
+}
+.callus {
+    width: 45px ;
+    height: 45px ;
+}
+
+.subscribe {
+    background-color: #946b46;
+}
+
+.subscribe:hover {
+    background-color: #a69687 !important;
+}
+/* main end */
 
 /* footer start */
 .plAndr{
