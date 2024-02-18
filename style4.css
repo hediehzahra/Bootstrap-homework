@@ -58,11 +58,11 @@ header button:hover{
 
 /* ************************header-image********************** */
 .head-img-sec{
-    height: 40vh;
+    height: 310px;
 }
 
 .head-img-inner{
-    background: linear-gradient(white, ) url(images/book5.jpg) 1px;
+    background: linear-gradient(0.25turn, #efe5dc50, #efe5dc50, #946a4650, #49352235), url(images/book5.jpg) 1px;
     background-size: cover;
 
 }
@@ -72,12 +72,23 @@ header button:hover{
 .head-img-inner h1{
     color: black;
 }
+.head-img-inner3{
+    background: linear-gradient(0.25turn, #946a4660, #49352280, #49352280, #efe5dc10, #efe5dcb2), url(images/book4.jpg) 100%;
+    background-size: cover;
+}
 
 .breadcrumb a{
     text-decoration: none;
-    color: gray;
+    color: black;
+    font-weight: 500;
 }
-
+.breadcrumb a:hover{
+    color: #b6cadd !important;
+}
+.breadcrumb li:nth-child(3){
+    color: #b6cadd;
+    font-weight: 500;
+}
 
 /* **************************main*************************** */
 main{
@@ -86,6 +97,9 @@ main{
     font-family: 'Poppins', sans-serif;
 }
 
+#instructors h3{
+    /* font-weight: 900 !important; */
+}
 .img{
     /* border: 2px solid black; */
     max-width: 500px;
@@ -166,6 +180,7 @@ span{
 
 
 
+/* *****************back to top btn************************ */
 
 .back-to-top .btn{
     position: fixed;
@@ -175,15 +190,19 @@ span{
     z-index: 99;
     padding: 10px 14px;
     transition: all 0.5s;
+    background-color: #223749;
     
+}
+.back-to-top i{
+    color: #efe5dc;
 }
 
 
 .back-to-top:hover .btn{
-    border-color: rgb(86, 240, 240);      /*--info*/
-    background-color: rgb(86, 240, 240);
+    border-color: #b6cadd;      /*--info*/
+    background-color: #b6cadd;
 }
-
+/* ****************************************************** */
 
 .carousel-item img{
     /* border: 10px solid black; */

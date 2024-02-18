@@ -40,45 +40,65 @@
           </div>
         </div>
         <!-- ...... -->
-          <nav class="navbar navbar-expand-lg bg-nav">
-              <div class="container">
-                  <a class="navbar-brand mb-4" href="#">
-                      <img src="./images/book.png" alt="logo" class="logo-size">
+        <nav class="navbar navbar-expand-lg bg-nav">
+            <div class="container">
+                <a class="navbar-brand mb-4" href="#">
+                    <img src="./images/book.png" alt="logo" class="logo-size">
+                  </a>
+                  <a class="navbar-brand fw-bold fs-3 flex-grow-1" href="#">Book Store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> 
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto fs-5">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Best Sellers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Books</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About us
                     </a>
-                    <a class="navbar-brand fw-bold fs-3 flex-grow-1" href="#">Book Store</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button> 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto fs-5">
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Best Sellers</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Books</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        About us
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Photo Album</a></li>
-                        <li><a class="dropdown-item" href="#">Subscription</a></li>
-                        <li><a class="dropdown-item" href="#">who we are</a></li>
-                        <li><a class="dropdown-item" href="#">Publishers</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contact us</a>
-                    </li>
-                  </ul>
-                  <button class="btn text-bg-primary SignIn-size" type="button">SignIn</button>
-                </div>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Photo Album</a></li>
+                      <li><a class="dropdown-item" href="#">Subscription</a></li>
+                      <li><a class="dropdown-item" href="./menu4-3.html">who we are</a></li>
+                      <li><a class="dropdown-item" href="./menu4-4.html">Publishers</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                  </li>
+                </ul>
+                <button class="btn text-bg-primary SignIn-size" type="button">SignIn</button>
               </div>
-          </nav>
+            </div>
+        </nav>
+
+
+        <section class="head-img-sec">
+          <!-- <img class="w-100 img-fluid" src="images/book5.jpg" alt=""> -->
+          <div class="head-img-inner head-img-inner3 w-100 h-100 d-flex justify-content-center align-items-center">
+            <div class="container py-5 ps-5 w-80">
+              <h1 class="h1 display-4 fw-bold mb-4 pt-0">Publishers</h1>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">About us</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Publishers</li>
+                </ol>
+              </nav>
+
+            </div>
+
+          </div>
+          
+        </section>
     </header>
 
 
@@ -86,8 +106,12 @@
         <!-- <section class="container d-flex justify-content-center w-100" id="publishers"> -->
         <section class="container w-100" id="publishers">
 
-          <div class="container px-1 text-center py-5">
-            <div class="row gx-1">
+          <div class="container px-1 text-center py-5 d-flex flex-column justify-content-center align-items-center">
+            <div class="text-center title w-75">
+              <h3 class="h3 fw-bold mb-4 display-4">Publishers we are in coorporated with</h3>
+
+            </div>
+            <div class="row gx-1 mt-5">
               <div class="d-none d-lg-block col-lg-4 col-xl-3 row gx-0 px-5 py-4 d-flex flex-column carousel4">
                 <div class="one col d-flex">
                   <!-- <p class="mt-5 ms-auto me-5">hey</p> -->
@@ -189,7 +213,7 @@
 
     <!-- button to Top -->
     <section class="back-to-top rounded-3">
-        <a href="#" class="btn btn-primary btn-lg-square">
+        <a href="#" class="btn btn-lg-square">
           <i class="bi bi-arrow-up"></i>
         </a>
     </section>
