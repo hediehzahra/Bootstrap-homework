@@ -81,21 +81,76 @@
           </nav>
     </header>
     <!-- nav bar end -->
+    <!-- main start -->
     <main>
+      <!-- page header start -->
       <div class="container-fluid bg-header py-5 mb-5">
         <div class="container py-5 mt-5">
           <h1 class="display-4 fw-bold mb-4">Contact us</h1>
-          <nav aria-label="breadcrumb">
+          <nav aria-label="breadcrumb" class="bgblur w-50">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item fs-5"><a href="#" class="no-decoration link-secondary">Home</a></li>
-              <li class="breadcrumb-item fs-5"><a href="#" class="no-decoration link-secondary">Library</a></li>
-              <li class="breadcrumb-item active fs-5" aria-current="page"><a href="#" class="no-decoration link-secondary">Contact us</a></li>
+              <li class="breadcrumb-item fs-5"><a href="#" class="no-decoration text-secondary hoverlight">Home</a></li>
+              <li class="breadcrumb-item fs-5"><a href="#" class="no-decoration text-secondary hoverlight">Books</a></li>
+              <li class="breadcrumb-item active fs-5" aria-current="page"><span class="light">Contact us</span></li>
             </ol>
           </nav>
         </div>
       </div>
       <!-- page header end -->
+      <div class="container-xxl">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-6">
+              <h1 class="display-6 fw-bold mb-5">If you have any comments about your purchase, let us know here!</h1>
+              <p class="mb-4 text-secondary">Here you can see the product purchase and delivery document. <a href="#" class="no-decoration">Download now</a></p>
+              <form action="">
+                <div class="row g-3">
+                  <!-- ... -->
+                  <div class="col-6">
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="name" placeholder="name">
+                      <label for="name" class="text-secondary">Your name</label>
+                    </div>
+                  </div>
+                  <!-- ... -->
+                  <div class="col-6">
+                    <div class="form-floating">
+                      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      <label for="email" class="text-secondary">Email address</label>
+                    </div>
+                  </div>
+                  <!-- ... -->
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="subject" placeholder="subject">
+                      <label for="subject" class="text-secondary">Subject</label>
+                    </div>
+                  </div>
+                  <!-- ... -->
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <textarea class="form-control" placeholder="Leave your comments here" id="floatingTextarea2" style="height: 100px"></textarea>
+                      <label for="floatingTextarea2" class="text-secondary">Comment</label>
+                    </div>
+                  </div>
+                  <!-- ... -->
+                  <div class="col-12">
+                    <button class="btn text-bg-primary nfButton py-3 px-5 border rounded-3" type="submit">Add Comment</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-6">
+              <div class="h-100">
+                <iframe class="position-relative w-100 h-100 border rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115757.39479566342!2d-0.5103759622287411!3d51.28676020074564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604e11096ad8d%3A0x41b8f15f2e52a725!2sLondon%2C%20UK!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd" frameborder="0" style="min-height: 450px; border: 0" allowfullscreen="" aria-hidden="false" tabindex="0">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <!-- main end -->
     <!-- footer start -->
     <footer>
       <div class="bg-dark pt-5 pb-3 plAndr footer container-fluid mt-5">
@@ -174,9 +229,9 @@
           <section class="d-flex flex-column">
             <h5 class="text-white">FIND A STORE</h5>
             <p class="text-white-50 mt-3 lead fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="d-flex">
-              <input class="form-control bg-dark text-white-50" type="search" placeholder="Store name,location" aria-label="search">
-              <button type="button" class="btn btn-info border rounded-4 po-search text-white">search</button>
+            <div class="d-flex position-relative" style="max-width: 400px;">
+              <input class="form-control bg-dark text-white-50 w-100 py-3 ps-4 pe-5" type="search" placeholder="Store name,location" aria-label="search">
+              <button type="button" class="btn btn-info border rounded-3 po-search text-white py-2 position-absolute top-0 end-0 mt-2 me-2">search</button>
             </div>
           </section>
         </div>

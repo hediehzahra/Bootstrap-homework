@@ -70,6 +70,17 @@
     height: 400px;
 }
 /* page header end */
+/* main start */
+.light{
+    color: #efe5dc;
+}
+.hoverlight:hover{
+    color: #b6cadd !important;
+}
+.bgblur{
+    backdrop-filter: blur(2px);
+}
+/* main end */
 /* footer start */
 .plAndr{
     padding: 0 50px;
@@ -90,11 +101,6 @@
     background-color: #946b46;
 }
 .po-search{
-    position: relative;
-    right: 25%;
-    top: 5px;
-    height: 40px;
-    width: 100px;
     transition: all 0.5s;
     border: 1px solid #946b46 !important;
 }
@@ -103,9 +109,6 @@
 }
 .po-search:focus{
     border: 3px solid #efe5dc !important; 
-}
-.form-control{
-    height: 50px;
 }
 .mtop-20{
     margin-top: -20px;
