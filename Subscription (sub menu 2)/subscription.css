@@ -1,17 +1,17 @@
 /* nav bar start */
-li a:hover{
-    color: rgb(13, 110, 253) !important;
+.LinkHoverBlue:hover{
+    color: rgb(13, 110, 253);
 }
-li a:local-link{
-    color: rgb(13, 110, 253) !important;
+.LinkHoverBlue:local-link{
+    color: rgb(13, 110, 253);
 }
 .text-bg-primary{
     background-color: #946b46 !important;
 }
-.button{
+.nfButton{
     transition: all 0.5s !important;
 }
-.button:hover{
+.nfButton:hover{
     background-color: #223749 !important;
 }
 .logo-size{
@@ -39,10 +39,7 @@ li a:local-link{
 
 }
 .bg-dark{
-    /* background-color: #223749 !important; */
     background-color: #493522 !important; 
-    /* color chosen was the best, you can try the colors yourself to see:) */
-    /* background-color: #946b46 !important; */
 }
 @media screen and (width<992px){
     .bg-nav{
@@ -113,11 +110,6 @@ li a:local-link{
     background-color: #946b46;
 }
 .po-search{
-    position: relative;
-    right: 25%;
-    top: 5px;
-    height: 40px;
-    width: 100px;
     transition: all 0.5s;
     border: 1px solid #946b46 !important;
 }
@@ -126,9 +118,6 @@ li a:local-link{
 }
 .po-search:focus{
     border: 3px solid #efe5dc !important; 
-}
-.form-control{
-    height: 50px;
 }
 .mtop-20{
     margin-top: -20px;
@@ -157,7 +146,7 @@ li a:local-link{
     color: white !important;
     transform: scale(1.1) translateX(5px);
 }
-.link-info:hover{
+.cfHover:hover{
     color: white !important;
 }
 /* footer end */
