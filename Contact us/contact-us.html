@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
     <!-- attention
-    it is not for the home page -->
+    this page is not for the home page -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Nest</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./H&F-other.css">
+    <link rel="stylesheet" href="./contact-us.css">
 </head>
 <body>
     <!-- nav bar start -->
     <header>
       <div class="container-fluid text-center bg-dark text-white-50 py-2 px-0 d-lg-block d-none">
-        <div class="row align-items-center">
+        <div class="row align-items-center gx-0">
           <div class="col-7 text-start px-5">
             <div class="me-4 d-inline-flex align-items-center">
               <i class="bi bi-telephone-fill me-1"></i>
@@ -52,36 +52,50 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto fs-5">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link LinkHoverBlue" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Best Sellings</a>
+                    <a class="nav-link LinkHoverBlue" href="#">Best Sellings</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Books</a>
+                    <a class="nav-link LinkHoverBlue" href="#">Books</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle LinkHoverBlue" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       About us
                     </a>
                     <ul class="dropdown-menu dropdown-color">
-                      <li><a class="dropdown-item" href="#">Photo Album</a></li>
-                      <li><a class="dropdown-item" href="#">Subscription</a></li>
-                      <li><a class="dropdown-item" href="#">who we are</a></li>
-                      <li><a class="dropdown-item" href="#">Publishers</a></li>
+                      <li><a class="dropdown-item LinkHoverBlue" href="#">Photo Album</a></li>
+                      <li><a class="dropdown-item LinkHoverBlue" href="#">Subscription</a></li>
+                      <li><a class="dropdown-item LinkHoverBlue" href="#">who we are</a></li>
+                      <li><a class="dropdown-item LinkHoverBlue" href="#">Publishers</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
+                    <a class="nav-link LinkHoverBlue" href="#">Contact us</a>
                   </li>
                 </ul>
-                <button class="btn text-bg-primary SignIn-size button" type="button">SignIn</button>
+                <button class="btn text-bg-primary SignIn-size nfButton" type="button">SignIn</button>
               </div>
             </div>
           </nav>
     </header>
     <!-- nav bar end -->
-    <main></main>
+    <main>
+      <div class="container-fluid bg-header py-5 mb-5">
+        <div class="container py-5 mt-5">
+          <h1 class="display-4 fw-bold mb-4">Contact us</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item fs-5"><a href="#" class="no-decoration link-secondary">Home</a></li>
+              <li class="breadcrumb-item fs-5"><a href="#" class="no-decoration link-secondary">Library</a></li>
+              <li class="breadcrumb-item active fs-5" aria-current="page"><a href="#" class="no-decoration link-secondary">Contact us</a></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!-- page header end -->
+    </main>
     <!-- footer start -->
     <footer>
       <div class="bg-dark pt-5 pb-3 plAndr footer container-fluid mt-5">
@@ -173,12 +187,12 @@
             <div class="col-lg-6 col-md-6 col-sm-12 text-sm-center text-lg-start text-md-start mleft-12">
               <section class="d-flex">
               <i class="bi bi-c-circle text-white-50"></i>
-              <p class="text-white-50"><a href="#" class="no-decoration link-info">Lorem ipsum dolor sit amet</a>,Lorem ipsum dolor sit.</p>
+              <p class="text-white-50"><a href="#" class="no-decoration link-info cfHover">Lorem ipsum dolor sit amet</a>,Lorem ipsum dolor sit.</p>
               </section>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 text-sm-center text-lg-end text-md-end">
-              <p class="text-white-50">Book Nest By <a href="#" class="no-decoration link-info">Group 6</a></p>
-              <p class="text-white-50 mtop-20">Lorem, ipsum By: <a href="#" class="no-decoration link-info">Lorem</a></p>
+              <p class="text-white-50">Book Nest By <a href="#" class="no-decoration link-info cfHover">Group 6</a></p>
+              <p class="text-white-50 mtop-20">Lorem, ipsum By: <a href="#" class="no-decoration link-info cfHover">Lorem</a></p>
             </div>
             </div>
           </div>
@@ -186,7 +200,7 @@
     </div>
     </footer>
     <!-- footer end -->
-    <a href="#" class="btn button button-size border rounded-3 backtotop">
+    <a href="#" class="btn nfButton button-size border rounded-3 backtotop">
       <i class="bi bi-arrow-up fs-5 text-white"></i>
     </a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
