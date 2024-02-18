@@ -56,7 +56,7 @@
 /* header start */
 .hd-img {
     position: relative;
-    background: url(header.webp);
+    background: url(header.jpg);
     background-size: cover;
 }
 
