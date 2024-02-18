@@ -55,6 +55,30 @@ header button:hover{
 }
 
 
+
+/* ************************header-image********************** */
+.head-img-sec{
+    height: 40vh;
+}
+
+.head-img-inner{
+    background: linear-gradient(white, ) url(images/book5.jpg) 1px;
+    background-size: cover;
+
+}
+.head-img-inner div{
+    /* background-color: aqua; */
+}
+.head-img-inner h1{
+    color: black;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    color: gray;
+}
+
+
 /* **************************main*************************** */
 main{
     width: 100%;
